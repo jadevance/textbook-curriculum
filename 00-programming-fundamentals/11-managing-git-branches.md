@@ -1,4 +1,4 @@
-# Managine Git Branches
+# Managing Git Branches
 ## Learning Goals
 - Explore how Git tracks _branches_
 - Learn common uses of the `checkout` command for managing _branches_
