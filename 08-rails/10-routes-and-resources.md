@@ -29,10 +29,10 @@ The core of this idea can be described through routing. For example, let's look 
 |:----------|:-----:|:-----------|
 | /markets       | GET    | Retrieves a collection of market objects|
 | /markets       | POST   | Creates a market object on the server. |
-| /markets/:id   | GET    | Retrieves an  individual market object through an identifying attribute, givin in the url path.|
-| /markets/:id   | PATCH    | Updates an individual market object through an identifying attribute, givin in the url path.|
-| /markets/:id   | PUT    | Updates an individual market object through an identifying attribute, givin in the url path.|
-| /markets/:id   | DELETE | Removes an individual market object through an identifying attribute, givin in the url path.|
+| /markets/:id   | GET    | Retrieves an  individual market object through an identifying attribute, given in the url path.|
+| /markets/:id   | PATCH    | Updates an individual market object through an identifying attribute, given in the url path.|
+| /markets/:id   | PUT    | Updates an individual market object through an identifying attribute, given in the url path.|
+| /markets/:id   | DELETE | Removes an individual market object through an identifying attribute, given in the url path.|
 
 You can see that many actions can be performed on a market object using only two paths.
 The paths represent the scope of the objects to operate on and the HTTP method indicates what type of action should be performed.
